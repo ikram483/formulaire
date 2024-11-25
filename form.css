@@ -1,0 +1,57 @@
+body{
+
+    
+    background-image: url('WhatsApp\ Image\ 2024-11-25\ at\ 10.01.13.jpeg');
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.811);
+    
+  margin: 0 auto;
+  padding: 0px;
+  width: 300px;
+  height: 120vh;
+  margin: 0 auto;
+  background-size:cover ;
+  background-position: center;
+ max-width: 600px;
+ padding: 20px;
+ border-radius: 8px;
+
+}
+
+/* .card{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+} */
+ h1 ,h4{
+    /* width: 50%;
+  margin: 0 auto; */
+  text-align: center;
+  color: aliceblue;
+
+}
+ label{
+    color: rgb(0, 0, 0);
+ }
+button:hover{
+    background-color: rgb(21, 100, 190);
+}
+button{
+    width: 260px;
+    padding: 10px;
+    border: none;
+    background-color: #3f3f67;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+[aria-label] {
+    font-size: 1.2em;
+   
+
+}

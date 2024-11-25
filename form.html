@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="form.css"/>
+</head>
+<body>
+    <div class="card">
+    <h1>FreeCode Survey Form</h1>
+    <h4>thank you for taking the time to help us improve the platform</h4>
+    <form>
+<label for="name"> name</label><br>
+<input type="text" id="name" name="name" placeholder="your name" required>
+<br>
+<br>
+<label for="email">email</label><br>
+<input type="email" name="email" id="email" placeholder="your email" required>
+<br>
+<br>
+
+<label for="age">age</label><br>
+<input type="number" name="age" id="age" age="number" placeholder="your age" required>
+<br>
+<br>
+
+<label for="choice">which option best describes your current role?</label><br>
+  <select name="choice" id="choice">
+    <option value="1">Student</option>
+    <option value="2">full time job</option>
+    <option value="3">full time learner</option>
+    <option value="4">Prefer not to say</option>
+    <option value="5">other
+        
+    </option>
+
+  </select>
+  <br>
+  <br>
+
+  <label for="choice2">what your favorite feature of free code?</label><br>
+  <select name="choice2" id="choice2">
+    <option value="1">challenges</option>
+    <option value="2">Projects</option>
+    <option value="3">Community</option>
+    <option value="4">Open source</option>
+        
+    </option>
+
+  </select>
+  <br>
+  <br>
+
+  <label for="radio">Would you recommend freeCode to a friend?</label>
+  <br>
+  <br>
+
+  <label>
+    <input type="radio" name="groupe" value="Option 1">
+    Difenitly
+  </label>
+  <br>
+  
+  <label>
+    <input type="radio" name="groupe" value="Option 2">
+Maybe
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="groupe" value="Option 3">
+    Not Sure
+  </label>
+  <br>
+  <br>
+
+  <label for="checkbox">What would you like to see improved?</label>
+  <br>
+  <label>
+    <input type="checkbox" name="option1" value="option1">
+    Front-end projects
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="option2" value="option2">
+    Back-end projects
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="option3" value="option3">
+    Data visualization
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="option4" value="option4">
+    Challenges
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="option5" value="option5">
+    Open Source Community
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="option6" value="option6">
+    Gitter help rooms
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="option7" value="option7">
+    videos
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="option8" value="option8">
+    City meetups
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="option9" value="option9">
+    Wiki
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="option10" value="option10">
+    Forum
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" name="option11" value="option11">
+    Additional Courses
+  </label>
+  <br>
+  <br>
+
+  <p id="description">Any comments or suggestions?</p>
+<!-- <input type="text" aria-describedby="description" placeholder="enter your comments here..."> -->
+ <textarea name="comments" id="comments"></textarea>
+<br>
+<br>
+
+<button onclick="alert('Done!')">Submit</button>
+  
+
+    </form>
+</div>
+</body>
+</html>
