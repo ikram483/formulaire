@@ -5,12 +5,12 @@ body{
 }
 
 form{
-    background-color: rgba(255, 255, 255, 0.811);
+    background-color: rgba(240, 191, 191, 0.653);
     
   margin: 0 auto;
   padding: 0px;
-  width: 300px;
-  height: 120vh;
+  width: 350px;
+  height: 160vh;
   margin: 0 auto;
   background-size:cover ;
   background-position: center;
@@ -34,6 +34,8 @@ form{
 }
  label{
     color: rgb(0, 0, 0);
+    font-size: medium;
+    
  }
 button:hover{
     background-color: rgb(21, 100, 190);
@@ -55,3 +57,25 @@ button{
    
 
 }
+/* Modifier la taille des cases */
+input[type="checkbox"], input[type="radio"] {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Modifier leur apparence au survol */
+  input[type="checkbox"]:hover, input[type="radio"]:hover {
+    background-color: #ddd;
+  }
+  input{
+    width: 350px;
+    height: 30px;
+  }
+  select{
+    width: 358px;
+    height: 30px;
+  }
+  textarea{
+    width: 350px;
+    height: 100px;
+  }
